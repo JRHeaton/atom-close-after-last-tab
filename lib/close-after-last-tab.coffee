@@ -1,6 +1,6 @@
 module.exports =
 
   activate: ->
-    atom.workspaceView.command 'core:close', ->
-      if !atom.workspace.getActivePane().getActiveItem()
-          atom.close()
+    atom.workspaceView.command 'pane-container:active-pane-item-changed', ->
+      if not atom.workspace.getActivePane().getActiveItem()
+        atom.close()

@@ -15,9 +15,7 @@
       "url": "http://danzimm.com"
     }
   ],
-  "activationEvents": [
-    "core:close"
-  ],
+  "activationEvents": ["pane-container:active-pane-item-changed"],
   "engines": {
     "atom": ">0.50.0"
   },
