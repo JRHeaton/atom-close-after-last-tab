@@ -15,6 +15,7 @@
       "url": "http://danzimm.com"
     }
   ],
+  "activationEvents": ["core:close"],
   "engines": {
     "atom": ">0.50.0"
   },
