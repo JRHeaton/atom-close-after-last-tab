@@ -1,7 +1,6 @@
 module.exports =
 
   activate: ->
-    atom.workspaceView.on 'pane-container:active-pane-item-changed', ->
-      if not atom.workspace.getActivePane().getActiveItem()
+    atom.workspaceView.on 'pane:item-removed', ->
+      if atom.workspace.getEditors().length is 0
         atom.close()
-
