@@ -13,10 +13,15 @@
     {
       "name": "Dan Zimmerman",
       "url": "http://danzimm.com"
+    },
+    {
+      "name": "Jason Tokoph",
+      "url": "http://jasontokoph.com",
+      "email": "jason@tokoph.net"
     }
   ],
   "activationEvents": [
-    "pane-container:active-pane-item-changed"
+    "pane:item-removed"
   ],
   "engines": {
     "atom": ">0.50.0"
