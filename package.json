@@ -18,10 +18,11 @@
       "name": "Jason Tokoph",
       "url": "http://jasontokoph.com",
       "email": "jason@tokoph.net"
+    },
+    {
+      "name": "Ivan Žužak",
+      "email": "izuzak@gmail.com"
     }
-  ],
-  "activationEvents": [
-    "pane:item-removed"
   ],
   "engines": {
     "atom": ">0.50.0"
